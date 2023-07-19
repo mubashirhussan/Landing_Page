@@ -29,13 +29,24 @@ export default function Services() {
   return (
     <div className="container services py-5 border-bottom">
       <Row gutter={16} className="justify-content-center ">
-        <Col xl={10} lg={10} md={24} sm={24} xs={24}>
+        <Col
+          xl={12}
+          lg={12}
+          md={24}
+          sm={24}
+          xs={24}
+          className="align-self-center"
+        >
           <div className="services-image mb-2">
-            <img alt="services" src={IMAGES.SERVICES} className="img-fluid" />
+            <img
+              alt="services"
+              src={IMAGES.SERVICES}
+              className="img-fluid h-100"
+            />
           </div>
         </Col>
-        <Col xl={10} lg={10} md={24} sm={24} xs={24}>
-          <div>
+        <Col xl={12} lg={12} md={24} sm={24} xs={24}>
+          <div className="pt-5">
             <div className="service-head">OUR AMAZING SERVICES</div>
             <div className="service-main-title">
               Engage the families you serve
@@ -44,7 +55,7 @@ export default function Services() {
               <img alt="bar" src={IMAGES.BARS} width={30} />
             </div>
             {servicesData.map((item) => (
-              <div className="mb-3">
+              <div className="mb-4">
                 <div className="service-title">{item.tilte.toUpperCase()}</div>
                 <div className="service-description">{item.description}</div>
               </div>
