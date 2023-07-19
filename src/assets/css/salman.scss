@@ -1,0 +1,407 @@
+$primary-color: #9c1b31;
+$light-gray-color: #f5f5f5;
+$white-color: #ffffff;
+
+.myProfile {
+  background-color: $white-color;
+}
+.profile-mainCard {
+  border-radius: 5px;
+  background-color: white;
+}
+.profile-mainCard:hover {
+  border-radius: 5px;
+  background-color: #4678ec;
+  color: #4678ec;
+}
+.Pic-userName {
+  justify-content: start;
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+}
+.Pic-userName-hover {
+  justify-content: start;
+  padding: 10px 20px;
+  border: none;
+  background-color: #e9f6fc;
+  border-right-color: #175ABF;
+  border-right: 6px solid;
+  color: #175ABF;
+}
+.Pic-userName:focus-visible {
+  justify-content: start;
+  padding: 10px 20px;
+  border: none;
+  background-color: #e9f6fc;
+  border-right: 6px solid;
+  border-right-color: #175ABF;
+  color: #175ABF;
+}
+.userImage-folw {
+  filter: invert(59%) sepia(81%) saturate(1780%) hue-rotate(165deg)
+    brightness(93%) contrast(88%) !important;
+}
+.nameUser {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  padding-left: 20px;
+  color: #333333c2;
+}
+.nameUser-hover {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  padding-left: 20px;
+  color: #175ABF !important;
+}
+
+.ProfileCard {
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  position: relative;
+  height: 100%;
+  padding-bottom: 18px;
+}
+.profile-cover-img {
+  width: 100%;
+}
+
+.user-Set-profile {
+  height: 8rem;
+  width: 8rem;
+  margin-right: 20px;
+}
+.upper {
+  height: 100px;
+}
+
+.custom-input-set {
+  margin-bottom: 2px !important;
+}
+
+.custom-input-set label {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px !important;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: rgb(0 0 0 / 78%);
+  font-weight: 500;
+}
+.add_new-card-heading {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 24px;
+}
+.profile-picther {
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0px 17px 0px 24px;
+}
+.questoin-img {
+  margin-left: 7px;
+}
+.delete-account-main .delete-my-aacount {
+  background: #eb4135 !important;
+  border-radius: 6px;
+  color: white;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  width: 200px;
+  height: 46px;
+}
+.ProfileCard .custom-input-feiled {
+  padding: 12px !important;
+}
+.custum-select-level1 .ant-select-selector {
+  height: 47px !important;
+}
+.custum-select-level1 .ant-select-selector .ant-select-selection-item {
+  display: flex;
+  align-items: center;
+}
+.input-manage-spaces {
+  margin: 0px 23px;
+}
+.text-area-custum label {
+  color: #4678ec;
+}
+.text-area-custums {
+  margin: 0px -2px 0px 20px;
+}
+
+.generic-custom-button .generic-button-level1 {
+  height: 46px;
+  background: #175ABF !important;
+  border-radius: 6px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0px 30px;
+}
+.generic-custom-button .generic-button-level2 {
+  height: 46px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #999999 !important;
+  padding: 0px 30px;
+  border: none;
+}
+.generic-custom-button .generic-button-level1:hover {
+  height: 46px;
+  background: #175ABF !important;
+  border-radius: 6px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff !important;
+  padding: 0px 30px;
+}
+
+.user-add-profile-btn .profile-change-button {
+  background: #ffffff;
+  border: 1px solid #175ABF;
+  border-radius: 4px;
+  color: #175ABF;
+}
+
+.top-space-generic {
+  margin-top: 13px;
+}
+.custom-textarea-feiled {
+  height: 100px;
+  border-radius: 9px;
+  width: 100%;
+  padding: 13px;
+}
+
+.password-policy {
+  background: #fde9e8;
+  border-radius: 6px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+}
+.icon-password-policy {
+  padding-right: 15px;
+}
+
+.policy-space {
+  margin: 0px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}
+.custom-textarea-feiled:hover {
+  border-color: #175ABF;
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+.custom-textarea-feiled:focus-visible {
+  border-color: #175ABF !important;
+  border-right-width: 1px !important;
+  outline-color: #175ABF !important;
+  z-index: 1;
+}
+.blue-box {
+  height: 230.89px;
+  background: rgba(231, 240, 254, 0.4588235294);
+  border-radius: 6px;
+  padding: 29px 18px 0px 24px;
+  margin-top: 47px;
+}
+
+.Password-must-contain {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.password-contain-policy {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 28px;
+  color: black;
+}
+.new-password-policy {
+  padding-left: 16px;
+}
+.credit-card {
+  max-width: 523.8px;
+  height: 231.2px;
+  background: linear-gradient(289.47deg, #5a37b9 0%, #c16ad5 100%);
+  border-radius: 5.8146px;
+  padding-bottom: 23px;
+}
+.credit-card1 {
+  max-width: 523.8px;
+  height: 231.2px;
+  background: linear-gradient(250.53deg, #fc478e 0%, #fdb85d 100%);
+  border-radius: 5.8146px;
+  padding-bottom: 23px;
+}
+.phone-number-custom-input {
+  border: 1.6px solid #cccccc;
+  padding: 10px 13px;
+  border-radius: 6px;
+}
+
+.img-size-mange-card {
+  width: 21px !important;
+}
+.PhoneInputInput {
+  border: none !important;
+}
+.PhoneInputInput:focus-visible {
+  outline: none;
+}
+.credit-card2 {
+  max-width: 523.8px;
+  height: 235.2px;
+  background: linear-gradient(250.53deg, #59c3fd 0%, #4f4eff 100%);
+  border-radius: 5.8146px;
+  padding-top: 5px;
+}
+.select-credit-Card {
+  /* display: flex; */
+  align-self: center;
+}
+.add-credit-card {
+  width: 60px;
+}
+.new-credit-img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.credit-card3 {
+  max-width: 523.8px;
+  height: 235.2px;
+  background: rgba(242, 242, 242, 0.4);
+  border: 0.969101px dashed #cccccc;
+  border-radius: 5.8146px;
+  padding-top: 5px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+.custom-dropdown-btn
+  .ant-space-compact
+  .ant-btn-icon-only
+  .ant-btn-icon
+  span
+  svg {
+  font-size: 21px;
+}
+.My_Card {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 26px;
+  color: white;
+  align-items: center;
+}
+
+.card-dropdown .ant-btn-compact-first-item {
+  display: none;
+}
+.card-dropdown .ant-dropdown-trigger {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+}
+.profile_Card {
+  border: 1px solid #d3d3d361;
+  border-radius: 6px;
+}
+.My_Card-main {
+  background-color: white;
+  padding: 3px 25px !important;
+  border-radius: 9px;
+  border: 1px solid #e6e6e6;
+  height: 100vh;
+}
+
+.card-steric {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 16px;
+  padding: 0px 72px 0px 8px;
+}
+.card-expiry-date {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 16px;
+  padding: 21px 50px 0px 29px;
+}
+.card-holder {
+  opacity: 0.8;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.custum-margin-end {
+  margin-bottom: 5px !important;
+  margin-top: 2px;
+}
+
+.account-delete-checkbox {
+  max-width: 400px;
+  height: 50px;
+  background: #fbfbfb;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  padding-left: 15px;
+  margin-top: 13px;
+}
+
+@media screen and (min-width: 320px) {
+  .profile_Card {
+    margin-bottom: 12px;
+  }
+}
