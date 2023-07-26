@@ -17,18 +17,18 @@ function HomeNavbar() {
   };
 
   return (
-    <div className="container">
-      <div className="navbarComponent">
-        <Layout className="layout">
+    <div className="container-fluid ">
+      <div className="navbarComponent px-0 px-sm-2 px-xs-2 px-md-5 px-lg-5">
+        <Layout className="layout justify-content-center">
           <Header className="home-header">
             <Row justify="space-between" align="middle">
-              <Col xs={18} sm={15} md={9}>
+              <Col xs={18} sm={22} md={22} lg={2} xl={9}>
                 <div className="logo">
                   <img alt="logo" src={IMAGES.LOGO} width={65} />
                   <span className="page-title">treaty</span>
                 </div>
               </Col>
-              <Col xs={0} sm={0} md={15}>
+              <Col xs={0} sm={0} md={0} lg={22} xl={15}>
                 <Menu
                   theme="dark"
                   mode="horizontal"
@@ -49,7 +49,7 @@ function HomeNavbar() {
                   </Menu.Item>
                 </Menu>
               </Col>
-              <Col sm={2} md={0}>
+              <Col sm={2} md={2} lg={0}>
                 <Button type="primary" onClick={showDrawer}>
                   <MenuOutlined />
                 </Button>

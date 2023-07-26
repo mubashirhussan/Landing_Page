@@ -1,6 +1,7 @@
 // import React from 'react'
 
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 import Heading from "./components/Heading";
 import HomeNavbar from "./components/HomeNavbar";
 import Services from "./components/Services";
@@ -14,6 +15,7 @@ export default function LandingPage() {
       <Vission />
       <Services />
       <ContactUs />
+      <Footer />
     </>
   );
 }

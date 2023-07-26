@@ -16,14 +16,16 @@ export default function Services() {
         "Patients and families deserve to have upto date, mobile access to their latest medication list. ",
     },
     {
-      tilte: "Access to important documents",
+      tilte:
+        "Access to important documents mobile access to their latest medication list.",
       description:
-        "Patients and families deserve to have upto date, mobile access to their latest medication list. ",
+        "Patients and families deserve to have upto date, mobile access to their latest medication list.mobile access to their latest medication list. ",
     },
     {
-      tilte: "Keep other family members in the loop",
+      tilte:
+        "Keep other family members in the loop mobile access to their latest medication list.",
       description:
-        "Patients and families deserve to have upto date, mobile access to their latest medication list. ",
+        "Patients and families deserve to have upto date, mobile access to their latest medication list. mobile access to their latest medication list.",
     },
   ];
   return (

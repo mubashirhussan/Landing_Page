@@ -49,7 +49,7 @@ export default function ContactUs() {
           ))}
           <div className="d-flex py-4 social-icon">
             {socialIcon.map((item) => (
-              <span className=" mx-2">{item.icon}</span>
+              <span className=" mr-2">{item.icon}</span>
             ))}
           </div>
         </Col>

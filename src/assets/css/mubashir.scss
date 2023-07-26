@@ -2,7 +2,9 @@ $primary-color: #4EB7C4;
 $light-gray-color: #F5F8FA;
 $white-color: #FFFFFF;
 $black-color:#14141A;
-
+.ant-menu-dark.ant-menu-submenu-popup{
+  background-color: white !important;
+}
 .navbarComponent{
   .home-header{
     padding: 0px !important;
@@ -19,8 +21,8 @@ $black-color:#14141A;
     line-height: 6px;
     justify-content: space-between;
     height: auto !important;
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
+    padding-top: 3px !important;
+    padding-bottom: 0px !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
@@ -47,6 +49,7 @@ $black-color:#14141A;
   box-shadow:none !important;
   align-items: center !important;
   transition: background 0.3s, width 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+  margin-left: 175px !important;
   .ant-menu-item{
     color: $primary-color !important;
     font-weight: 600 !important;
@@ -56,8 +59,13 @@ $black-color:#14141A;
     color: #DB2624 !important;
     font-weight: 600 !important;
     font-size: 16px !important;
+    line-height: 57px;
+    border-bottom: 5px solid red;
+    display: inline;
+    position: relative;
+    top: 4px;
   }
-  
+ 
 }
 
 .navbar-btn{
@@ -138,8 +146,8 @@ $black-color:#14141A;
   .vission-icon{
     border: 2px solid lightgray;
     border-radius: 50px;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
